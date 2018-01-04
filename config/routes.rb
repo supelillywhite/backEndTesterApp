@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :testers
   root to: 'pages#tester'
 
   get 'pages/renderer'
